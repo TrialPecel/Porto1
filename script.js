@@ -2,7 +2,7 @@
 const MANIFEST = {
   design: [
     'design-1.jpg','design-2.jpg','design-3.jpg','design-4.jpg','design-5.jpg',
-    'Poster-SatriaUtama-006.png'
+    'Poster-SatriaUtama-006.png','Poster-SatriaUtama-006.png','Blade.png','Early-Warning-System-MQTT.png','photo-extra.jpg'
   ],
   photography: ['photo-1.jpg','photo-2.jpg','photo-3.jpg'],
   lkmm: ['lkmm-1.jpg','lkmm-2.jpg'],
