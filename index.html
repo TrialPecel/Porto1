@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Satria Utama Disawa — Portfolio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232D6A9F'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='20' font-weight='900' fill='white' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:ital@1&family=Syne:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" data-hover>S<span>.</span></a>
+    <ul class="nav-tabs" id="navTabs">
+      <li><a href="#design" data-hover>DESIGN</a></li>
+      <li><a href="#videography" data-hover>VIDEOGRAPHY</a></li>
+      <li><a href="#photography" data-hover>PHOTOGRAPHY</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-overlay" id="mobileOverlay">
+  <button class="overlay-close" id="overlayClose" aria-label="Close">&times;</button>
+  <ul>
+    <li><a href="#design">DESIGN</a></li>
+    <li><a href="#videography">VIDEOGRAPHY</a></li>
+    <li><a href="#photography">PHOTOGRAPHY</a></li>
+    <li><a href="#about">ABOUT</a></li>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section id="hero" class="hero dot-grid">
+  <div class="sticker sticker-mic" aria-hidden="true">
+    <svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#2D6A9F"/><path d="M32 18a6 6 0 0 0-6 6v10a6 6 0 0 0 12 0V24a6 6 0 0 0-6-6zm-10 16a10 10 0 0 0 20 0M32 44v6m-6 0h12" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
+  </div>
+  <div class="sticker sticker-notepad" aria-hidden="true">
+    <svg viewBox="0 0 64 64"><rect x="10" y="10" width="44" height="48" rx="6" fill="#5BAD8F"/><rect x="18" y="4" width="4" height="12" rx="2" fill="#1A2B3C"/><rect x="42" y="4" width="4" height="12" rx="2" fill="#1A2B3C"/><path d="M18 26h28M18 34h28M18 42h18" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></svg>
+  </div>
+  <div class="sticker sticker-camera" aria-hidden="true">
+    <svg viewBox="0 0 64 64"><rect x="4" y="18" width="44" height="28" rx="5" fill="#1A2B3C"/><path d="M48 26l12-6v24l-12-6z" fill="#2D6A9F"/><circle cx="20" cy="32" r="7" fill="none" stroke="#5BAD8F" stroke-width="2.5"/><circle cx="38" cy="24" r="2" fill="#5BAD8F"/></svg>
+  </div>
+
+  <div class="hero-center">
+    <span class="pill pill-this">This is</span>
+    <h1 class="hero-title">
+      <span class="l" style="color:var(--primary)">P</span><span class="l" style="color:var(--accent)">o</span><span class="l" style="color:var(--primary)">r</span><span class="l" style="color:var(--accent)">t</span><span class="l" style="color:var(--primary)">f</span><span class="l" style="color:var(--accent)">o</span><span class="l" style="color:var(--primary)">l</span><span class="l" style="color:var(--accent)">i</span><span class="l" style="color:var(--primary)">o</span>
+    </h1>
+    <p class="hero-sub"><em>by</em> Satria Utama Disawa</p>
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <span></span>
+    <svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 9l6 6 6-6" stroke="#2D6A9F" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="container about-grid">
+    <div class="about-photo reveal">
+      <div class="polygon-bg"></div>
+      <img src="ImageSource/aboutme.png" alt="Satria Utama Disawa" />
+    </div>
+    <div class="about-text">
+      <div class="section-label reveal bbox">
+        <em class="serif-it">About</em> <span class="syne">me</span>
+      </div>
+      <p class="bio reveal">I'm a 4th-semester Multimedia Broadcasting student at PENS, focused on visual communication and digital experience design. My work spans graphic design, photography, and UI/UX — driven by the belief that good design must be both beautiful and functional.</p>
+      <h4 class="sub-label reveal"><span>Experience</span></h4>
+      <p class="bio reveal">Experienced in creating posters and infographics for events, and documentation photography. Proficient in Adobe Illustrator, Affinity Studio, Figma, and DaVinci Resolve.</p>
+      <div class="tool-pills reveal">
+        <span><img src="ImageSource/logos/illustrator.png" alt=""/>Adobe Illustrator</span>
+        <span><img src="ImageSource/logos/affinity.svg" alt=""/>Affinity Studio</span>
+        <span><svg viewBox="0 0 38 57" xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align:middle"><path fill="#1abcfe" d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z"/><path fill="#0acf83" d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z"/><path fill="#ff7262" d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z"/><path fill="#f24e1e" d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z"/><path fill="#a259ff" d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z"/></svg>Figma</span>
+        <span><img src="ImageSource/logos/davinci.png" alt=""/>DaVinci Resolve</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESIGN -->
+<section id="design" class="section design dot-grid">
+  <div class="container">
+    <header class="sec-head reveal bbox center">
+      <em class="serif-it">Design</em>
+      <h2 class="syne big" style="color:var(--primary)">Project</h2>
+    </header>
+    <div class="tool-row reveal">
+      <span class="tool-label"><em>Edit Tools</em></span>
+      <div class="tool-badges">
+        <div class="tbadge" title="Affinity"><img src="ImageSource/logos/affinity.svg" alt="Affinity"/></div>
+        <div class="tbadge" title="Figma"><svg viewBox="0 0 38 57" xmlns="http://www.w3.org/2000/svg"><path fill="#1abcfe" d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z"/><path fill="#0acf83" d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z"/><path fill="#ff7262" d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z"/><path fill="#f24e1e" d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z"/><path fill="#a259ff" d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z"/></svg></div>
+        <div class="tbadge" title="Adobe Illustrator"><img src="ImageSource/logos/illustrator.png" alt="Illustrator"/></div>
+      </div>
+    </div>
+    <div class="masonry" id="designGrid"></div>
+  </div>
+</section>
+
+<!-- PHOTOGRAPHY -->
+<section id="photography" class="section photography">
+  <div class="sticker-cam-corner tl" aria-hidden="true">
+    <svg viewBox="0 0 64 64"><rect x="6" y="18" width="42" height="28" rx="5" fill="#5BAD8F"/><path d="M46 26l14-6v24l-14-6z" fill="#fff" opacity=".9"/><circle cx="24" cy="32" r="8" fill="none" stroke="#fff" stroke-width="2.5"/></svg>
+  </div>
+  <div class="sticker-cam-corner tr" aria-hidden="true">
+    <svg viewBox="0 0 64 64"><rect x="6" y="18" width="42" height="28" rx="5" fill="#2D6A9F"/><path d="M46 26l14-6v24l-14-6z" fill="#fff" opacity=".9"/><circle cx="24" cy="32" r="8" fill="none" stroke="#fff" stroke-width="2.5"/></svg>
+  </div>
+  <div class="container">
+    <header class="sec-head reveal bbox light center">
+      <em class="serif-it" style="color:#fff">Photography</em>
+      <h2 class="syne big" style="color:var(--accent)">Project</h2>
+    </header>
+    <div class="badge-group reveal center">
+      <span class="soft-badge">Jelajah Lensa Sumenep</span>
+      <span class="soft-badge ghost">Bersama detikcom</span>
+    </div>
+    <div class="grid-3" id="photoGrid"></div>
+  </div>
+</section>
+
+<!-- VIDEOGRAPHY -->
+<section id="videography" class="section videography dot-grid">
+  <div class="container">
+    <header class="sec-head reveal bbox center">
+      <em class="serif-it">Videography</em>
+      <h2 class="syne big" style="color:var(--primary)">Project</h2>
+    </header>
+    <div class="video-wrap">
+      <div class="video-desc reveal">
+        <h4 class="mini-title">Food Review &amp; Short Content Series</h4>
+        <p>with Multimedia Broadcasting SM 24. A collection of videography works focusing on food review storytelling and short-form content. I handled shooting, editing, colour grading, and motion titles — combining cinematic b-roll, on-camera presenting, and tight pacing to keep viewers engaged from first bite to final verdict.</p>
+        <div class="tool-badges">
+          <div class="tbadge" title="DaVinci Resolve"><img src="ImageSource/logos/davinci.png" alt="DaVinci Resolve"/></div>
+          <div class="tbadge" title="CapCut"><img src="ImageSource/logos/capcut.png" alt="CapCut"/></div>
+          <div class="tbadge" title="Adobe Premiere Pro"><img src="ImageSource/logos/premiere.png" alt="Premiere Pro"/></div>
+        </div>
+      </div>
+      <div class="video-grid" id="videoGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLIC SPEAKER -->
+<section id="speaker" class="section speaker">
+  <div class="container speaker-grid">
+    <div class="speaker-text">
+      <h2 class="display-head reveal">
+        <em class="serif-it" style="color:var(--text)">Public</em><br>
+        <span class="syne italic-bold" style="color:var(--primary)">Speaker</span>
+      </h2>
+      <div class="small-caps reveal">L K M M · P E N S · 2 0 2 5</div>
+      <p class="bio reveal">LKMM (Latihan Keterampilan Manajemen Mahasiswa) is a structured training program to equip students with managerial, leadership, and organizational skills. Its goal is to create competent and responsible student organization leaders, with a tiered curriculum: Pra-Dasar, Dasar, Menengah, and Lanjut (Kader Bangsa).</p>
+      <figure class="cert-card reveal">
+        <img src="ImageSource/certificate.jpg" alt="Appreciation certificate" />
+        <figcaption><strong>Appreciate</strong> — as public speaker at LKMM PENS 2025</figcaption>
+      </figure>
+    </div>
+    <div class="speaker-photo reveal">
+      <div class="polygon-bg blue"></div>
+      <img src="ImageSource/speaker.jpg" alt="Public speaker portrait" />
+    </div>
+  </div>
+
+  <div class="container capture-wrap">
+    <h3 class="sec-head bbox reveal center"><em class="serif-it">Our</em> <span class="syne">Capture</span></h3>
+    <div class="filmstrip">
+      <div class="grid-2x2" id="lkmmGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- MORE CTA -->
+<section id="more" class="section more">
+  <div class="container center">
+    <h2 class="sec-head bbox reveal center">
+      <em class="serif-it">More</em> <span class="syne big" style="color:var(--primary)">Portfolio</span>
+    </h2>
+    <p class="reveal muted">Tap to open →</p>
+    <a class="cta-pill reveal" href="https://drive.google.com/drive/folders/18ZCkR0-NkGa83hUtoRYdDo1XA70vHAN_" target="_blank" rel="noopener" data-hover>
+      drive.google.com/drive/folders/18ZCkR0-NkGa83hUtoRYdDo1XA70vHAN_
+    </a>
+    <p class="reveal muted small">Google Drive · Photography, Design &amp; Videography archive</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container center">
+    <h2 class="thanks syne">Thanks</h2>
+    <p class="for-attention serif-it">For your attention</p>
+    <div class="contact-pill">
+      <a href="https://linkedin.com/in/satria-utama-disawa" target="_blank" rel="noopener" data-hover>
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="#2D6A9F" d="M4.98 3.5A2.5 2.5 0 112.5 6 2.5 2.5 0 014.98 3.5zM3 8.98h4V21H3zM9 8.98h3.8v1.64h.06a4.17 4.17 0 013.75-2.06c4 0 4.74 2.64 4.74 6.07V21h-4v-5.5c0-1.31-.02-3-1.83-3s-2.12 1.43-2.12 2.91V21H9z"/></svg>
+        Satria Utama Disawa
+      </a>
+      <span class="divider"></span>
+      <a href="mailto:disawautama@gmail.com" data-hover>
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="#2D6A9F" d="M3 5h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1zm9 8.5L3.5 7.2V18h17V7.2z"/></svg>
+        disawautama@gmail.com
+      </a>
+    </div>
+    <p class="copy">© 2025 Satria Utama Disawa · Designed with care.</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <div class="lb-content" id="lbContent"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
